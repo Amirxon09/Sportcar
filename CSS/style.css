@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: gray;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5vh;
+}
+.navbar{
+    width: 100%;
+    background-color: white;
+}
+.navbar h4{
+    font-weight: 400;
+}
+.home{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(38, 0, 255, 0.2),rgba(4, 0, 255, 0.2)), url(./poygamashina.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 30vh;
+    color: white;
+}
+.content{
+    margin-left:100px;
+}
+.home h1{
+    font-weight: 500;
+    font-size: 22pt;
+
+}
+.home h1:nth-child(2){
+    margin-bottom: 5vh;
+}
+.home button{
+    padding:10px 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1) ;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.box{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    padding-top: 2vh;
+}
+.image{
+    width: 100%;
+    height: 200vh;
+    background-color: white;
+    margin-bottom: 5vh;
+}
+.image h1{
+    color: white;
+}
+.image1{
+    width: 33.33%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0, 0, 0, 0)), url(https://s0.rbk.ru/v6_top_pics/media/img/6/40/754788778197406.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
+.image2{
+    width: 33.33%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0, 0, 0, 0)), url(https://c.wallhere.com/photos/f7/60/Mercedes_AMG_GT_car_vehicle_Mercedes_Benz_sports_car_supercars-1927017.jpg!d);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 2vh;
+    margin-top: 2vh;
+}
+.image3{
+    width: 33.33%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0, 0, 0, 0)), url(https://img4.goodfon.ru/wallpaper/nbig/a/48/ferrari-f488-gtb-anrky-wheels.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 2vh;
+    margin-top: 2vh;
+    margin-right: 2vh;
+}
+.image4{
+    width: 33.33%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0, 0, 0, 0)), url(https://66.media.tumblr.com/8089c9d53e0e7d46c3629e4db1e2f748/68b68eef15845131-57/s1280x1920/972939b1cd43b5887bbc9b19c4e67e6783249fd8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+.image5{
+    width: 33.33%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0, 0, 0, 0)), url(https://mobimg.b-cdn.net/v3/fetch/b2/b21f0f45fa711ab82b489a02933ecd0b.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 2vh;
+}
+.image6{
+    width: 33.33%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0, 0, 0, 0)), url(https://avatars.mds.yandex.net/get-autoru-vos/2106781/89f10f5c4be07066cf8b90b798443e9f/1200x900);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+.image7{
+    width: 33.33%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0, 0, 0, 0)), url(https://kolesa-uploads.ru/-/2bcd922c-4bc6-4307-8bc5-2eac64a80559/toyota-ft-1-graphite-concept-10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+.image8{
+    width: 33.33%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0, 0, 0, 0)), url(https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C395/U3567/IMG_10452-medium.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 2vh;
+}
+.image9{
+    width: 33.33%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0, 0, 0, 0)), url(https://cimg8.ibsrv.net/gimg/www.clublexus.com-vbulletin/1024x768/2018_lexus_lc_pic_3170115531679941180_1024x768_jpeg_9617475ceefb4099a8e975860036803a5b6707d7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+.image10{
+    width: 33.33%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0, 0, 0, 0)), url(https://c1.staticflickr.com/2/1457/25111663904_b557459773_h.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+.image11{
+    width: 33.33%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0, 0, 0, 0)), url(https://i.pinimg.com/originals/5f/33/07/5f3307f7c91221c2aa8f034535e412c6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 2vh;
+}
+.image12{
+    width: 33.33%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0, 0, 0, 0)), url(https://i.pinimg.com/originals/08/ff/62/08ff621d5e172a1f8121a36cbda25e18.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+p{
+    text-align: center;
+    font-size: 20pt;
+
+}
